@@ -1,9 +1,10 @@
 import PropTypes from "prop-types";
 import { IoMdContact } from "react-icons/io";
+import { CiSearch } from "react-icons/ci";
 
 const Header = () => {
   return (
-    <header>
+    <header className="lg:mt-8 mt-4">
       <div className="navbar flex justify-between">
         <div>
           <div className="dropdown">
@@ -87,12 +88,15 @@ const Header = () => {
           </ul>
         </div>
         <div className="flex items-center gap-3">
-          <div className="lg:flex hidden">
+          <div className="lg:flex items-center hidden relative">
             <input
               type="text"
               placeholder="Search"
-              className="input input-bordered w-full max-w-xs rounded-3xl bg-[#150B2B0D]"
+              className="input-bordered outline-none pl-10 py-3 w-full max-w-xs rounded-full bg-[#150B2B0D]"
             />
+            <div className="absolute left-4">
+              <CiSearch className="text-xl text-black"></CiSearch>
+            </div>
           </div>
           <div>
             <button className="rounded-full justify-center p-1 text-2xl lg:text-3xl bg-[#0BE58A]">

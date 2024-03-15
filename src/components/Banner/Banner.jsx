@@ -4,7 +4,7 @@ const Banner = () => {
   return (
     <div
       style={{ backgroundImage: `url(${banner})` }}
-      className="w-full bg-center bg-cover rounded-2xl h-[600px] mt-8 flex flex-col justify-center items-center"
+      className="w-full bg-center bg-cover rounded-2xl h-[600px] lg:mt-8 mt-4 flex flex-col justify-center items-center"
     >
       <div className="px-6 lg:px-24 flex flex-col gap-8">
         <p className="text-white lg:text-5xl text-2xl font-bold text-center">
