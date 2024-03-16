@@ -15,7 +15,7 @@ function App() {
   const [time, setTime] = useState(0);
   const [calories, setCalories] = useState(0);
   useEffect(() => {
-    fetch("../public/recipe.json")
+    fetch("recipe.json")
       .then((res) => res.json())
       .then((data) => setCarts(data));
   }, []);
