@@ -95,7 +95,7 @@ const Header = () => {
               className="input-bordered outline-none pl-10 py-3 w-full max-w-xs rounded-full bg-[#150B2B0D]"
             />
             <div className="absolute left-4">
-              <CiSearch className="text-xl text-black"></CiSearch>
+              <CiSearch className="text-[18px] text-black"></CiSearch>
             </div>
           </div>
           <div>
