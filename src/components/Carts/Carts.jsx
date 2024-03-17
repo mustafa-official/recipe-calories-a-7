@@ -6,7 +6,7 @@ const Carts = ({ allCart, handleBtn }) => {
   const { name, image, description, ingredients, time, calories } = allCart;
   return (
     <div className="border-[2px] rounded-xl p-5">
-      <img className="w-full rounded-xl" src={image} alt="" />
+      <img className="w-full rounded-xl" src={image} alt={name} />
       <h2 className="font-semibold text-xl text-[#282828] mt-6">{name}</h2>
       <p className="text-[#878787] text-[16px] mt-3">{description}</p>
       <hr className="my-4" />

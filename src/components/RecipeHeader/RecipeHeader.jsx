@@ -7,9 +7,7 @@ const RecipeHeader = () => {
         Our Recipes
       </h1>
       <p className="text-[#150B2B99] text-[16px] text-center max-w-[800px]">
-        Learn and Master Basic Programming, Data Structures, Algorithm, OOP,
-        Database and solve 500+ coding problems to become an exceptionally well
-        world-class Programmer.
+      Food can also be classified on the basis of Nutrients that they provide: Carbohydrate rich foods: Wheat, rice, potato, sugar etc. Protein rich foods: Egg, milk, meat, fish, pulses etc.
       </p>
     </div>
   );

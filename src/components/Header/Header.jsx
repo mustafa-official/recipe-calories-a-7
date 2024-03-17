@@ -99,7 +99,7 @@ const Header = () => {
             </div>
           </div>
           <div>
-            <button className="rounded-full justify-center p-1 text-2xl lg:text-3xl bg-[#0BE58A]">
+            <button className="rounded-full justify-center p-1 lg:p-2 text-2xl lg:text-3xl bg-[#0BE58A]">
               <IoMdContact></IoMdContact>
             </button>
           </div>
